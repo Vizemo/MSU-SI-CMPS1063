@@ -1,0 +1,60 @@
+Victor Marchesi
+CMPS 1063 SI
+
+Contestant: 4
+  Diving:     5.5
+  Gymnastics: 8.9
+  Boxing:     8.6
+  Skating:    7.8
+  Posing:     7.5
+                                           TOTAL: 38.3
+
+Contestant: 13
+  Diving:     6.5
+  Gymnastics: 8.6
+  Boxing:     8.3
+  Skating:    6.9
+  Posing:     8.5
+                                           TOTAL: 38.8
+
+Contestant: 7
+  Diving:     6.9
+  Gymnastics: 8.7
+  Boxing:     8.4
+  Skating:    6.2
+  Posing:     8.5
+                                           TOTAL: 38.7
+
+Contestant: 15
+  Diving:     6.5
+  Gymnastics: 9.1
+  Boxing:     7.3
+  Skating:    6.9
+  Posing:     9.0
+                                           TOTAL: 38.8
+
+Contestant: 87
+  Diving:     6.5
+  Gymnastics: 9.6
+  Boxing:     9.1
+  Skating:    7.9
+  Posing:     8.5
+                                           TOTAL: 41.6
+
+Contestant: 42
+  Diving:     6.5
+  Gymnastics: 8.6
+  Boxing:     8.2
+  Skating:    5.1
+  Posing:     7.5
+                                           TOTAL: 35.9
+
+Contestant: 11
+  Diving:     9.0
+  Gymnastics: 7.6
+  Boxing:     7.5
+  Skating:    7.6
+  Posing:     8.5
+                                           TOTAL: 40.2
+
+ATHLETE OF THE YEAR: Contestant 87 with TOTAL of 41.6

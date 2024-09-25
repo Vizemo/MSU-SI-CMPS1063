@@ -1,25 +1,33 @@
-#pragma once
+#pragma once  // Ensures the header is included only once during compilation
 
+// Definition of the Rect class
 class Rect {
 private:
-	int length;
-	int width;
+    int length;  // The length of the rectangle
+    int width;   // The width of the rectangle
 
 public:
-	Rect();
+    // Default constructor
+    Rect();
 
-	Rect(int l, int w);
+    // Parameterized constructor
+    Rect(int l, int w);
 
-	~Rect();
+    // Destructor
+    ~Rect();
 
-	void setLength(int s2);
+    // Setter for the length
+    void setLength(int s2);
 
-	void setWidth(int s);
+    // Setter for the width
+    void setWidth(int s);
 
-	const int getLength();
+    // Getter for the length
+    const int getLength();
 
-	const int getWidth();
+    // Getter for the width
+    const int getWidth();
 
-	int findArea();
-
+    // Function to calculate the area of the rectangle
+    int findArea();
 };

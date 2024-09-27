@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\out.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|solutionrelative:out.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\Robot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|solutionrelative:Robot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\out.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|solutionrelative:out.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6C82030-F621-46C3-B55C-A78F4A1B5B35}|assignment2.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\Rock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,19 +38,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "out.txt",
               "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\out.txt",
               "RelativeDocumentMoniker": "out.txt",
               "ToolTip": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\out.txt",
               "RelativeToolTip": "out.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-27T16:07:14.775Z"
+              "WhenOpened": "2024-09-27T16:07:14.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Rock.h",
               "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\Rock.h",
               "RelativeDocumentMoniker": "Rock.h",
@@ -91,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Robot.cpp",
               "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\Robot.cpp",
               "RelativeDocumentMoniker": "Robot.cpp",
@@ -103,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Robot.h",
               "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\Robot.h",
               "RelativeDocumentMoniker": "Robot.h",
@@ -116,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\Assignment2\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",

@@ -1,4 +1,7 @@
 ﻿  main.cpp
-  Rect.cpp
+  Robot.cpp
+  Rock.cpp
   Generating Code...
+C:\Users\vzeri\Documents\Github\SI\MSU-SI-CMPS1063\test1_review\Robot.cpp(30,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\vzeri\Documents\Github\SI\MSU-SI-CMPS1063\test1_review\Rock.cpp(23,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
   test1_review.vcxproj -> C:\Users\vzeri\Documents\Github\SI\MSU-SI-CMPS1063\test1_review\x64\Debug\test1_review.exe

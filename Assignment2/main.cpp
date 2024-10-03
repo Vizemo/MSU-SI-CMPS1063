@@ -75,12 +75,10 @@ void openFiles(ifstream& infile, ofstream& outfile) {
     cout << "Enter the input file name: ";
     cin >> inputFileName;
     infile.open(inputFileName); // Open input file
-    //infile.open("in.txt");
 
     cout << "Enter the output file name: ";
     cin >> outputFileName;
     outfile.open(outputFileName); // Open output file
-    //outfile.open("out.txt");
 }
 
 void heading(ofstream& fout) {

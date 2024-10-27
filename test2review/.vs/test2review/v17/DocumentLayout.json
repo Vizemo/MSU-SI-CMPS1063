@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vzeri\\Documents\\Github\\MSU-SI-CMPS1063\\test2review\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0023CB05-982C-438D-867A-F3AB264684C6}|test2review.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\MSU-SI-CMPS1063\\test2review\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0023CB05-982C-438D-867A-F3AB264684C6}|test2review.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\MSU-SI-CMPS1063\\test2review\\Source.cpp",
+              "RelativeDocumentMoniker": "Source.cpp",
+              "ToolTip": "C:\\Users\\vzeri\\Documents\\Github\\MSU-SI-CMPS1063\\test2review\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAUwOQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-25T21:33:33.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

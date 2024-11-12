@@ -31,6 +31,8 @@ public:
 
     UnsortedList(); // Default constructor
 
+    UnsortedList(int item, ListNode *itemNext = nullptr); // Parameterized constructor
+
     UnsortedList(UnsortedList& other); // Deep copy constructor
 
     ~UnsortedList(); // Destructor
@@ -41,6 +43,9 @@ public:
 
     // Resets the list to have nothing in it
     void resetList();
+
+    // Resets the list to have nothing in it
+    void clearList();
 
     // Advances the cursor to the next node in the list
     void advanceList();
@@ -58,7 +63,7 @@ public:
     void removeItem(int item);
 
     // Searches for an item in the list and positions the cursor at its location
-    void searchItem(int item);
+    bool searchItem(int item);
 
     // Removes the item at the current cursor position
     void removeCurrentItem();

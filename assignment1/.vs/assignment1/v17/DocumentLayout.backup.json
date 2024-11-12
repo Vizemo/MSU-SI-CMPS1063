@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\",
+  "WorkspaceRootPath": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\out.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\out.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|solutionrelative:out.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4FCF3993-9A37-4CE4-B91E-30D89A979160}|assignment1.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -28,37 +28,35 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "out.txt",
-              "DocumentMoniker": "C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\out.txt",
+              "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\out.txt",
               "RelativeDocumentMoniker": "out.txt",
-              "ToolTip": "C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\out.txt",
+              "ToolTip": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\out.txt",
               "RelativeToolTip": "out.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-18T15:30:41.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T15:30:41.841Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "in.txt",
-              "DocumentMoniker": "C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\in.txt",
+              "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\in.txt",
               "RelativeDocumentMoniker": "in.txt",
-              "ToolTip": "C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\in.txt",
+              "ToolTip": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\in.txt",
               "RelativeToolTip": "in.txt",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-18T15:05:23.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T15:05:23.766Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\vzeri\\Desktop\\SI\\assignment1\\main.cpp",
+              "ToolTip": "C:\\Users\\vzeri\\Documents\\Github\\SI\\MSU-SI-CMPS1063\\assignment1\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAIgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-18T15:04:57.406Z",
               "EditorCaption": ""

@@ -31,7 +31,7 @@ public:
 
     UnsortedList(); // Default constructor
 
-    UnsortedList(int item, ListNode *itemNext = nullptr); // Parameterized constructor
+    UnsortedList(int item, ListNode* itemNext); // Parameterized constructor
 
     UnsortedList(UnsortedList& other); // Deep copy constructor
 

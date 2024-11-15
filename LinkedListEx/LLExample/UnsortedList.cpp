@@ -19,8 +19,19 @@ UnsortedList::UnsortedList(){
     length = 0;
 }
 
-UnsortedList::UnsortedList(int item, ListNode *itemNext = nullptr){
-    val = item;
+// Parameterized constructor
+UnsortedList::UnsortedList(int item, ListNode* itemNext = nullptr) {
+    // Create the first node in the list with the specified value
+    head = new ListNode(item);
+
+    // Set the 'next' pointer of the new node to itemNext
+    head->next = itemNext;
+
+    // Set cursor to head since this is the only node for now
+    cursor = head;
+
+    // Set the length of the list to 1
+    length = 1;
 }
 
 // Purpose:  Deep copy constructor to create a new list as a copy of an 
@@ -63,6 +74,7 @@ UnsortedList::UnsortedList(UnsortedList& other) {
         length = other.length;
     }
 }
+
 // Destructor
 UnsortedList::~UnsortedList(){}
 
@@ -96,10 +108,11 @@ void UnsortedList::insertItem(int item){
 }
 
 // Inserts an item at the beginning of the list
-void UnsortedList::insertFirst(int item){
-    cursor = head;
-    ListNode* temp = new UnsortedList node(item, head);
-    if()
+void UnsortedList::insertFirst(int item) {
+    ListNode* newNode = new ListNode(item, head);  // Create a new node with 'item' as value, pointing to the current head
+    head = newNode;  // Update head to the new node
+    cursor = head;   // Set cursor to the beginning of the list
+    length++;        // Increment the length of the list
 }
 
 // Removes the first occurrence of the given item from the list
@@ -137,12 +150,9 @@ int UnsortedList::getCurrentItem(){
     int item = -1;
 
     //check if at end of list
-    if(cursor==nullptr){
-        cout << "Error at end of list" << endl;
-    }
-    else{
-        item = cursor->val;
-    }
+    if(cursor==nullptr) cout << "Error at end of list" << endl;
+    else item = cursor->val;
+    
     return item;
 }
 
@@ -153,7 +163,12 @@ void UnsortedList::getCurrentItem(int& item){
 
 // Prints all the elements in the list to the console
 void UnsortedList::printList() const{
-
+    ListNode* current = head;  // Start from the head of the list
+    while (current != nullptr) {
+        cout << current->val << " ";  // Print the value of the current node
+        current = current->next;  // Move to the next node
+    }
+    cout << endl;  // End the line after printing all elements
 }
 
 /**********************************************************************

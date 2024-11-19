@@ -7,12 +7,12 @@ S1 = 00000987654321
 Swap S1 and S2
 S2 = 00000987654321
 Reset S2 to 987654321
-S2 = 987654321
+S2 = 123456789
 Let S1 be the 10's complement of S2
-S1 = 123456789
+S1 = 987654321
 Sum of S1 and S2 is 1111111110
 Getting ready to destruct S1 and S2.
-Thank you for using the SuperCard Program. 
+Thank you for using the SuperCard Program.
 
 If your program does not crash - destructor worked.
 

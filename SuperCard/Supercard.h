@@ -44,17 +44,17 @@ public:
     //Returns: the number of digits in the Supercard
     int getLength() const;
 
-    //Purpose: moves the current index to the digit at position pos, 
+    //Purpose: Moves the current index to the digit at position pos (0-based index),
     //if it exists
-    //Requires/Checks:  1 <= i <= length
+    //Requires/Checks:  0 <= pos < length
     void moveIndex(int pos);
 
-    //Returns: returns the digit at the position pos
-    //Requires/Checks:  1 <= pos <= length	
+    //Returns: Returns the digit at position pos (0-based index).
+    //Requires/Checks:  0 <= pos < length
     int getDigit(int pos);
 
-    //Purpose: Inserts the digit d in the supercard in the proper position,
-    //  if it is 1 more than the length it inserts the digit
-    //Requires:  1 <= pos <= length+1
+    //Purpose: Inserts the digit d in the supercard in the proper position.
+    //If pos is equal to the length, it appends the digit.
+    //Requires:  0 <= pos <= length
     void setDigit(int pos, int d);
 };

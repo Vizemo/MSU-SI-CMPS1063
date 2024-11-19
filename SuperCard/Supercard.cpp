@@ -8,7 +8,7 @@ Supercard::Supercard() {
     head = new Node(0);  // Create the initial node
     cursor = head;       // Set cursor to the head
     length = 1;          // Length is 1 because of the initial node
-    currentIndex = 1;    // Current index points to the only node
+    currentIndex = 0;    // Current index starts at 0
 }
 
 // Copy constructor
@@ -21,7 +21,7 @@ Supercard::Supercard(Supercard& other) {
 
     Node* otherCursor = other.head; // Start copying nodes from other's head
     while (otherCursor) {
-        setDigit(length + 1, otherCursor->item); // Add each node to the new Supercard
+        setDigit(length - 1, otherCursor->item); // Add each node to the new Supercard
         otherCursor = otherCursor->next;        // Move to the next node in other
     }
     cursor = head; // Reset cursor to the head of the new Supercard
@@ -44,7 +44,7 @@ void Supercard::clear() {
     head = new Node(0);  // Reinitialize with a single node containing 0
     cursor = head;       // Reset cursor to the new head
     length = 1;          // Length is now 1
-    currentIndex = 1;    // Current index points to the only node
+    currentIndex = 0;    // Current index starts at 0
 }
 
 // Swaps this Supercard with another Supercard
@@ -80,12 +80,12 @@ int Supercard::getLength() const {
 
 // Moves the cursor to the digit at position 'pos'
 void Supercard::moveIndex(int pos) {
-    if (pos < 1 || pos > length) {  // Check if position is valid
+    if (pos < 0 || pos >= length) {  // Update bounds for 0-based indexing
         cerr << "Error: Invalid position " << pos << endl;
         return;
     }
     cursor = head;      // Reset cursor to the head
-    currentIndex = 1;   // Reset currentIndex to 1
+    currentIndex = 0;   // Reset currentIndex to 0
     while (currentIndex < pos) { // Move cursor to the desired position
         cursor = cursor->next;
         currentIndex++;
@@ -94,24 +94,32 @@ void Supercard::moveIndex(int pos) {
 
 // Retrieves the digit at position 'pos'
 int Supercard::getDigit(int pos) {
-    if (pos < 1 || pos > length) {  // Check if position is valid
-        cerr << "Error: Invalid position " << pos << endl;
-        return -1; // Return -1 for invalid position
+    int d = -1;
+    if (pos < 0 || pos > length) {  // Update bounds for 0-based indexing
+        cout << "Error: Invalid position " << pos << endl;
+        return d; // Return -1 for invalid position
     }
-    moveIndex(pos);      // Move cursor to the desired position
-    return cursor->item; // Return the digit at the current position
+    moveIndex(pos); 
+    int temp// Move cursor to the desired position
+    return d = cursor->item; // Return the digit at the current position
+
 }
+
+
 
 // Sets the digit at position 'pos' to 'd'
 // If 'pos' is one more than the length, appends a new digit
 void Supercard::setDigit(int pos, int d) {
-    if (pos < 1 || pos > length + 1) { // Check if position is valid
+
+    Node* newNode;
+
+    if (pos < 0 || pos > length) { // Update bounds for 0-based indexing
         cerr << "Error: Invalid position " << pos << endl;
         return;
     }
-    if (pos == length + 1) { // Append new digit if 'pos' is at the end
-        Node* newNode = new Node(d); // Create a new node
-        moveIndex(length);           // Move cursor to the last node
+    if (pos == length) { // Append new digit if 'pos' is at the end
+        newNode = new Node(d); // Create a new node
+        moveIndex(length - 1);       // Move cursor to the last node
         cursor->next = newNode;      // Append the new node
         length++;                    // Increment the length
     }

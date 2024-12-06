@@ -1,0 +1,8 @@
+Big O cheat sheet
+https://www.bigocheatsheet.com/
+
+sorting
+https://visualgo.net/en/sorting
+
+website with a lot of visualzation options
+https://visualgo.net/en
